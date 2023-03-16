@@ -13,9 +13,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Considerations
 
 - I've committed the .env.local file for demo purposes. I would expect this file to be populated by the CI.
-- I've installed Prettier (instead of ESLint) for linting as it is out-the-box & opinionated. 
-- Client-side data fetching v.s. server-side rendered v.s. static
-- Tests using React Testing Library & Jest. Could investigate Cypress etc.
+- I've installed Prettier (instead of ESLint) for linting as it is out-the-box & opinionated.
+- Tests using React Testing Library & Jest. Would obviously make these a lot more substantial. Could also investigate Cypress etc.
+- Loading states & skeleton logic started getting slightly messy within the ExtractedMerchantRow component - would probably refactor this
 
 ## Future Ideas / Improvements
 
