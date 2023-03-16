@@ -19,7 +19,7 @@ const ExtractedMerchantRow: React.FunctionComponent<Props> = (props) => {
 
       {!props.isLoading && !!merchant && (
         <Stack direction="row" gap={0.5} overflow="scroll" marginTop={1.5}>
-          {merchant.categories.map((category) => (
+          {merchant.categories?.map((category) => (
             <Tooltip key={category.code} title={`Code: ${category.code}. Slug: ${category.slug}`}>
               <Chip label={category.description} />
             </Tooltip>
