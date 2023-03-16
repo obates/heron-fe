@@ -21,3 +21,4 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ## Future Ideas / Improvements
 - More/better example transaction descriptions to showcase the API better
 - Handle the case where an extracted merchant doesn't have a payment processor (or merchant). It's currently just showing an empty box which isn't ideal!
+- Make the Enter button work to submit the raw bank transaction!
