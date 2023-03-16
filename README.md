@@ -16,7 +16,8 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - I've installed Prettier (instead of ESLint) for linting as it is out-the-box & opinionated.
 - Tests using React Testing Library & Jest. Would obviously make these a lot more substantial. Could also investigate Cypress etc.
 - Loading states & skeleton logic started getting slightly messy within the ExtractedMerchantRow component - would probably refactor this
+- 
 
 ## Future Ideas / Improvements
-
-- 
+- More/better example transaction descriptions to showcase the API better
+- Handle the case where an extracted merchant doesn't have a payment processor (or merchant). It's currently just showing an empty box which isn't ideal!
